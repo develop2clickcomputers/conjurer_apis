@@ -22,7 +22,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 //@ComponentScan(basePackages = "com.pisight.pimoney")
 //@EntityScan("com.pisight.pimoney.entities")
 //@EnableGemfireRepositories
-public class ConjurerApisSb3xVersionApplication {
+public class ConjurerApisApplication {
 
 	@Autowired
 	BeanFactory beanFactory;
@@ -36,7 +36,7 @@ public class ConjurerApisSb3xVersionApplication {
 		return registrationBean;
 	}
 	public static void main(String[] args) {
-		SpringApplication.run(ConjurerApisSb3xVersionApplication.class, args);
+		SpringApplication.run(ConjurerApisApplication.class, args);
 		//ConfigurableApplicationContext ctx = SpringApplication.run(ConjurerApisSb3xVersionApplication.class, args);
 	}
 

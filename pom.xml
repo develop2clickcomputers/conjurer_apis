@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pisight.pimoney</groupId>
-	<artifactId>conjurer_apis_sb_3x_version</artifactId>
+	<artifactId>conjurer_apis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>conjurer_apis_sb_3x_version</name>
+	<name>conjurer_apis</name>
 	<description>Conjurer Api with SpringBoot V3</description>
 
 	<properties>
